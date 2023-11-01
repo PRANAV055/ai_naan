@@ -24,7 +24,10 @@ Exploratory Data Analysis (EDA)
 • In earthquake prediction, we use EDA to identify trends, seasonality, or geographic 
 clustering of earthquake occurrences. It can also help identify outliers or anomalies in the 
 data.
+
+
 Visualization: 
+
 Data Visualization for Insight 
 • It involves creating visual representations of earthquake-related data to gain insights and 
 communicate findings effectively. 
@@ -34,6 +37,8 @@ earthquake occurrences across different regions. This map can help visualize the
 frequency and geographic patterns of earthquakes. Using color coding or markers, you 
 can indicate the magnitude of each earthquake event, providing a visual understanding of 
 where stronger earthquakes are more prevalent.
+
+
 Temporal Patterns 
 • We create time series plots or histograms to visualize temporal patterns in earthquake 
 occurrences. This can reveal trends over time, such as whether earthquake frequency is 
@@ -47,6 +52,8 @@ Outlier Detection
 • Visualizations can be used to identify outliers or anomalies in the data. Box plots or 
 violin plots can highlight data points that deviate significantly from the norm, which may 
 require special attention during data preprocessing or model development.
+
+
 Data Splitting 
 Training and Testing Sets 
 • Training Set: This portion of the data is used to train your machine learning model. The 
@@ -55,6 +62,8 @@ upon which your model is built.
 • Testing Set (Validation Set): The testing set, sometimes referred to as the validation set, is 
 used to assess the performance of your trained model. It serves as a simulation of realworld data the model hasn't seen during training. The model's predictions on this set are 
 compared to the actual values to evaluate its accuracy and generalization capability.
+
+
 Splitting Techniques 
 There are various techniques for splitting data: 
 • Random Splitting: We randomly allocate a percentage of the data (e.g., 70% for training 
@@ -66,10 +75,14 @@ you can use stratified splitting to maintain that balance.
 • Time-Based Splitting: If our data has a temporal component, such as earthquake 
 occurrences over time, it's essential to split it chronologically. You can use past data for 
 training and future data for testing to simulate real-world scenarios.
+
+
 Cross-Validation 
 In addition to a single data split, we employ cross-validation techniques, such as k-fold crossvalidation. This involves dividing the data into multiple subsets (folds), repeatedly training and 
 testing the model on different combinations of these folds, and then aggregating the results to 
 obtain a more robust evaluation of your model's performance.
+
+
 Phases of development:
 Phase 1: Problem Definition and Design Thinking 
 Phase 2 : explore innovative techniques such as ensemble methods and deep learning 
@@ -77,5 +90,3 @@ architectures to improve the prediction system's accuracy and robustness.
 Phase 3 : Building the earthquake prediction model by loading and preprocessing the dataset.
 Phase 4: Visualizing the data on a world and splitting it into training and testing sets
 Phase 5: Project Documentation & Submission.
-
-Phase 5: Project Documentation & Submissio
